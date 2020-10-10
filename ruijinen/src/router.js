@@ -5,7 +5,6 @@ import Home from '@/views/Home.vue'
 import Detail from '@/views/Detail.vue'
 import About from '@/views/About.vue'
 import Result from '@/views/Result.vue'
-import Type from '@/views/Type.vue'
 
 Vue.use(VueRouter);
 
@@ -24,11 +23,6 @@ const routes = [
         path: '/result',
         name: 'Result',
         component: Result
-    },
-    {
-        path: '/type/:type',
-        name: 'Type',
-        component: Type
     },
     {
         path: '/detail',
